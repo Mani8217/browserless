@@ -1,0 +1,128 @@
+* {
+   box-sizing:  border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+.btn-box  {
+  text-align: center;
+}
+
+.btn-box button {
+    width: 200px;
+    padding: 8px 12px;
+}
+.btn-box button:focus {
+    background-color: black;
+    color: white;
+}
+.card {
+    width: 18rem;
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+}
+
+.card .card-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.cards-box {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+   
+    
+}
+.go-some {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 5px auto;
+    background-color: black;
+    color: white;
+}
+.go-some:hover {
+    background-color: blue;
+    color: black;
+}
+#third-btn:hover {
+    background-color: pink;
+    color: black;
+}
+
+
+.card-btn {
+    padding: 8px 12px;
+    
+    width: 300px;
+    text-decoration: none;
+    color:white;
+    margin: 20px auto;
+}
+
+
+.card ul {
+    text-align: left;
+    padding: 20px;
+}
+
+.card-img-top {
+    width: 60%;
+}
+
+.card ul li {
+    margin-bottom: 20px;
+}
+.third ul {
+    list-style: none;
+    
+}
+
+.third ul li::before {
+    content: "\2022";
+    color: yellow;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .second ul {
+    list-style: none;
+  }
+
+  .second ul li::before {
+    content: "\2022";
+    color: pink;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.3em;
+    margin-left: -1em;
+  }
+  .second {
+    padding-top:0 ;
+  }
+
+  .second .head-paraf {
+    background-image: linear-gradient(to right, #FF3A96, #FFF938);
+    padding: 10px;
+    margin: 0;
+  }
+
+.main-pa{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main-pa a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
