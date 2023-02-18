@@ -14,3 +14,9 @@ document.querySelectorAll('.page-change').forEach(button => {
     }
 })
 })
+$(document).ready(function(){
+    $("#icon").click(function(){
+        $("#head-nav").slideToggle('slow');
+    })
+})
+
